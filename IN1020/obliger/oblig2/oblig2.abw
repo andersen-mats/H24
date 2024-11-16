@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="67" xmlns:dc="http://purl.org/dc/elements/1.1/" styles="unlocked" fileformat="1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="0.99.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="abiword.date_last_changed">Sun Oct 20 17:32:39 2024
+</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.creator">mats</m>
+<m key="dc.date">Sun Oct 20 16:29:12 2024
+</m>
+<m key="dc.format">application/x-abiword</m>
+</metadata>
+<rdf>
+</rdf>
+<history version="24" edit-time="3824" last-saved="1729438359" uid="a2d78982-8eef-11ef-9b0d-8ac30293939a">
+<version id="24" started="1729434552" uid="8a893ef8-8ef8-11ef-9b0d-8ac30293939a" auto="0" top-xid="2"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; text-position:normal; widows:2; font-style:normal; text-indent:0in; font-variant:normal; font-weight:normal; margin-right:0pt; font-size:12pt; text-decoration:none; margin-bottom:0pt; line-height:1.0; bgcolor:transparent; text-align:left; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section xid="1" props="page-margin-footer:0.5in; page-margin-header:0.5in">
+<p style="Normal" xid="2"><c props="font-weight:bold; font-family:FreeSans; font-size:18pt">Oblig 2 Mats Andersen (matande), IN1020</c></p>
+<p style="Normal" xid="3"><c props="font-weight:bold; font-family:FreeSans; font-size:18pt"></c></p>
+<p style="Normal" xid="4"><c props="font-weight:normal; font-family:FreeSans; font-size:14pt">1) Det boer tas saerlig hensyn til alle private opplysninger; alt vedroerende journaler, loggfoering, resepter, behandlingshistorikk, etc.</c></p>
+<p style="Normal" xid="5"><c props="font-weight:normal; font-family:FreeSans; font-size:14pt"></c></p>
+<p style="Normal" xid="17"><c props="font-weight:normal; font-family:FreeSans; font-size:14pt"></c></p>
+<p style="Normal" xid="6"><c props="font-weight:normal; font-family:FreeSans; font-size:14pt">2) Konfidensialitet maa opprettholdes for aa beskytte pasientenes rett til privatliv. Reguleringer for dette staar sterkt i Norge og Europa, og maa etterfoelges for aa kunne i det hele drifte en klinikk. Ved et brudd paa konfidensialiteten kan sensitive personvernsopplysninger lekkes og brukes til diverse ondsinnede formaal. En trussel mot konfidensialiteten er utro-tjener-angrep (angrep fra innsiden).</c></p>
+<p style="Normal" xid="7"><c props="font-weight:normal; font-family:FreeSans; font-size:14pt"></c></p>
+<p style="Normal" xid="8"><c props="font-weight:normal; font-family:FreeSans; font-size:14pt">Integritet er kanskje det viktigste sikkerhetsmaalet; du oensker ikke aa bli gitt feil blodtype, f.eks. Det finnes uendelig mange trusler mot integriteten; felles nevner er skadevare som endrer/korrupterer/sletter data. I verste fall kan dette foere til tap av liv, ved at det f.eks. blir gitt feil medisiner.</c></p>
+<p style="Normal" xid="9"><c props="font-weight:normal; font-family:FreeSans; font-size:14pt"></c></p>
+<p style="Normal" xid="11"><c props="font-weight:normal; font-family:FreeSans; font-size:14pt">Tilgjengligheten soerger for at tjenestene er tilgjengelige; at nettsider er aapne, logger tilgjengelige, etc. Et trussel er DDoS-angrep. I utgangspunktet boer det foreligge backup-loesninger mot tilgjengelighetsangrep, men i vaar digitale tidsalder ... osv. I vaerste fall blir behandlinger utsatt.</c></p>
+<p style="Normal" xid="12"><c props="font-weight:normal; font-family:FreeSans; font-size:14pt"></c></p>
+<p style="Normal" xid="18"><c props="font-weight:normal; font-family:FreeSans; font-size:14pt"></c></p>
+<p style="Normal" xid="13"><c props="font-weight:normal; font-family:FreeSans; font-size:14pt">3) Politiske aktoerer kan vaere ute etter aa skade en viktig person som gaar til klinikken, ved aa korruptere hans journal, eller paa en eller annen maate gjoere det slik at han blir gitt feil medisin. Klassiske profittjegere kan angripe IT-systemet vha. et loespengevirus; altsaa kryptere all data. Kanskje, i bytte mot penger, gir de den private dekrypteringsnoekkelen. </c></p>
+<p style="Normal" xid="14"><c props="font-weight:normal; font-family:FreeSans; font-size:14pt"></c></p>
+<p style="Normal" xid="16"><c props="font-weight:normal; font-family:FreeSans; font-size:14pt"></c></p>
+<p style="Normal" xid="15"><c props="font-weight:normal; font-family:FreeSans; font-size:14pt">4)  Konfidensialitet: God sikkerhetskultur for aa beskytte mot utro tjenere, og kryptering av all data, samt gode og sikre OAuth-loesninger med sykehusene, for trygg overlevering av journaler m.m.</c></p>
+<p style="Normal" xid="19"><c props="font-weight:normal; font-family:FreeSans; font-size:14pt"></c></p>
+<p style="Normal" xid="20"><c props="font-weight:normal; font-family:FreeSans; font-size:14pt">Integritet: Brannmurer for aa beskytte mot inntrenging, antivirus for deteksjon, kanskje implementasjon av sjekksummer for aa sikre at data ikke endres av uautoriserte? Jeg er usikker paa om dette tiltaket er realistisk; kanhende det introduserer for mye kompleksitet.</c></p>
+<p style="Normal" xid="21"><c props="font-weight:normal; font-family:FreeSans; font-size:14pt"></c></p>
+<p style="Normal" xid="22"><c props="font-weight:normal; font-family:FreeSans; font-size:14pt">Tilgjengelighet: </c><c props="font-size:14pt; text-decoration:none; font-family:FreeSans; font-weight:normal; font-style:italic">DDoS-mitigation</c><c props="font-weight:normal; font-size:14pt; font-family:FreeSans; text-decoration:none; font-style:normal">-systemer</c><c props="font-size:14pt; text-decoration:none; font-family:FreeSans; font-weight:normal; font-style:italic"> </c><c props="font-weight:normal; font-size:14pt; font-family:FreeSans; text-decoration:none; font-style:normal">for aa forhindre DDoS-angrep, offline-backup-loesninger i tilfelle alt gaar skeis.</c></p>
+<p style="Normal" xid="23"><c props="font-weight:normal; font-size:14pt; font-family:FreeSans; text-decoration:none; font-style:normal"></c></p>
+<p style="Normal" xid="25"><c props="font-weight:normal; font-size:14pt; font-family:FreeSans; text-decoration:none; font-style:normal"></c></p>
+<p style="Normal" xid="24"><c props="font-weight:normal; font-size:14pt; font-family:FreeSans; text-decoration:none; font-style:normal">5) a) Det maa settes opp en ruter som tillater oversetting av IP-adresser (NAT-ruter). Denne tar den offentlige IP-adressen fra StokkeNet og bruker den som sin </c><c props="font-weight:normal; font-size:14pt; font-family:FreeSans; text-decoration:none; font-style:italic">wide area network </c><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal">(WAN), men bruker private IP-adresser intern for disse syv datamaskinen som </c><c props="font-weight:normal; font-size:14pt; font-family:FreeSans; text-decoration:none; font-style:italic">local area network </c><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal">(LAN). Deretter vil trafikk fra og til de interne IP-adressene oversettes av NAT-ruteren, naar det foregaar kommunikasjon paa internett.</c></p>
+<p style="Normal" xid="26"><c props="font-size:14pt; font-weight:normal; font-family:FreeSans; text-decoration:none; font-style:normal"></c></p>
+<p style="Normal" xid="29"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal"></c></p>
+<p style="Normal" xid="27"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal">b) Problemet med NAT-rutere er at de oversetter trafikken til kun en offentlig IP-adresse. Dermed er det noe komplisert aa koble sammen roentgenmaskinen med noeyaktig den ene datamaskinen som leverandoeren skal logge inn paa.</c></p>
+<p style="Normal" xid="30"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal"></c></p>
+<p style="Normal" xid="31"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal">c) Jeg tror den mest brukervennlige loesningen her er aa sette opp en sikker “tunnel” fra leverandoeren til nettverket, vha. </c><c props="font-weight:normal; font-size:14pt; font-family:FreeSans; text-decoration:none; font-style:italic">virtual private network </c><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal">(VPN). Det finnes mange kommersielle loesninger som tilbyr denne tjenesten. VPN tillater at leverandoeren kobler seg til LAN-nettverket, som om han var inne i det.</c></p>
+<p style="Normal" xid="32"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal"></c></p>
+<p style="Normal" xid="33"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal">d) Foerst konverterer vi stoerrelsen paa kopien (1,4 GB) til megabits:</c></p>
+<p style="Normal" xid="34"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal"></c></p>
+<p style="Normal" xid="35"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal">1.4 * 8 * 1024 = 11200 Mb</c></p>
+<p style="Normal" xid="38"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal"></c></p>
+<p style="Normal" xid="39"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal">Deretter beregner vi tiden det vil ta aa overfoere:</c></p>
+<p style="Normal" xid="40"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal"></c></p>
+<p style="Normal" xid="41"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal">11200 Mb / 50 MBps = 224s</c></p>
+<p style="Normal" xid="42"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal"></c></p>
+<p style="Normal" xid="43"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal">Det vil ta ca. 224 sekunder aa overfoere denne sikkerhetskopien. Det er litt under 4 minutter.</c></p>
+<p style="Normal" xid="44"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal"></c></p>
+<p style="Normal" xid="45"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal"></c></p>
+<p style="Normal" xid="46"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal">6) a) Hvis IP-adressen er 172.16.1.1/26, faar vi ved CIDR-notasjonen at de 26 foerste bits er nettverksdelen. Dvs. at nettmasken (binaert) bestaar av 26 enere, og resten av den er 0. </c></p>
+<p style="Normal" xid="48"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal"></c></p>
+<p style="Normal" xid="49"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal">11111111.11111111.11111111.11000000</c></p>
+<p style="Normal" xid="53"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal"></c></p>
+<p style="Normal" xid="54"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal">Naar du konverterer dette til desimal, faar du 255.255.255.192. De tre foerste delene er lett aa konvertere, siden 255 er maksimalen. Dette er nettmasken.</c></p>
+<p style="Normal" xid="56"><c props="text-decoration:none; font-size:14pt; font-family:FreeSans; font-weight:normal; font-style:normal"></c></p>
+<p style="Normal" xid="57"><c props="font-size:14pt; font-weight:normal; font-family:FreeSans; text-decoration:none; font-style:normal">Naar  det gjelder broadcast-adressen: IP-adresser bestaar av fire oktetter (32 bits totalt). Hvis de 26 foerste bits er satt til nettverksdelen, har vi seks bits igjen. 2 opphoey i sjette er 64. Vi kan altsaa ha 64 adresser. Den siste adressen er satt av til broadcast-adressen. Siden vi starter paa null, er den siste den som ender paa 63. Dette gir oss at broadcast-adressen er 172.16.1.63.</c></p>
+<p style="Normal" xid="61"><c props="font-size:14pt; font-weight:normal; font-family:FreeSans; text-decoration:none; font-style:normal"></c></p>
+<p style="Normal" xid="62"><c props="font-size:14pt; font-weight:normal; font-family:FreeSans; text-decoration:none; font-style:normal">b) Hvis nettverksadressen er den foerste, den som ender paa 0, og broadcast-adressen er den siste, den som ender paa 63, faar vi 64 minus to adresser, som er 62 adresser totalt. Vi kan altsaa ha 62 IP-adresser til fritt bruk.</c></p>
+<p style="Normal" xid="63"><c props="font-size:14pt; font-weight:normal; font-family:FreeSans; text-decoration:none; font-style:normal"></c></p>
+<p style="Normal" xid="64"><c props="font-size:14pt; text-decoration:none; font-family:FreeSans; font-weight:normal; font-style:normal"></c></p>
+<p style="Normal" xid="65"><c props="font-size:14pt; text-decoration:none; font-family:FreeSans; font-weight:normal; font-style:normal">7) Foerst og fremst maa gjestenettverket vaere sikkert, baade sett fra utsiden og innsiden. Med sistnevnte menes at ingen som er koblet paa gjestenettet, skal kunne kommet seg inn til det interne nettet. De maa mao. vaere to ulike nettverk. Med foerstnevnte menes at all trafikk er kryptert, og at pasientene maa koble seg paa vha. passord, -- eller kanskje en slags loesning som kun tillater pasienter aa bruke det? Eller kanskje de maa logge seg paa en portal med email, og godta en rekke vilkaar, osv. Det finnes mange muligheter her. Uansett boer ikke en gjest kunne vaere paakoblet til evig tid. Noen timer er nok per sesjon. Til sist vil jeg oppfordre klinikken til aa blokkere enkelte nettsider/tjenester, for aa filtrere ut upassende/unoedvendig og evt. skadelig innhold.</c></p>
+<p style="Normal" xid="66"><c props="font-size:14pt; text-decoration:none; font-family:FreeSans; font-weight:normal; font-style:normal"></c></p>
+<p style="Normal" xid="67"><c props="font-size:14pt; text-decoration:none; font-family:FreeSans; font-weight:normal; font-style:normal">8) Phishing er alltid den mest effektive angrepsvektoren. Jeg ville rett og slett ha spoofet meg inn, kanskje ved aa sende en mail til resepsjonisten og si at jeg kommer paa vegne av en eller annen stroemleverandoer/IT-konsulent, for aa fikse noe som har med datamaskinene aa gjoere. Saa ville jeg ha moett opp og gjort en grei jobb som ikke vekker mistanke; men paa et tidspunkt ville jeg ha stukket en USB-pinne inn i resepsjonistens PC, overlevert en exploit, og derfra ha kommet meg inn paa regnskapssystemet, for aa endre beloepet paa regningen. I samme slengen ville jeg ha soerget for aa slette mailen jeg sendte, og -- hvis mulig -- kameraopptak.</c></p>
+</section>
+</abiword>

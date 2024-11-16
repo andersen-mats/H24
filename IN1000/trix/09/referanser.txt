@@ -1,0 +1,13 @@
+a. True
+b. False
+c. True
+d. True
+e. True
+f. False
+
+g. True
+h. False
+i. True
+j. False
+k. True
+l. False

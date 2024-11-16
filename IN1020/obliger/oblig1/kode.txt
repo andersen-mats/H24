@@ -1,0 +1,100 @@
+start INP
+BRZ slutt
+STA vare
+SUB eple_plu
+BRZ eple
+LDA vare
+SUB tomat_plu
+BRZ tomat
+BRA start
+eple INP
+BRZ eple
+STA antall
+LDA N
+OTC
+LDA linje 
+OTC
+LDA E
+OTC
+LDA linje
+OTC
+LDA S
+OTC
+LDA linje
+OTC
+LDA eple_dager
+OUT
+LDA linje
+OTC
+eple_mult LDA sum
+ADD eple_pris
+STA sum
+LDA antall
+SUB en
+STA antall
+BRZ start
+BRA eple_mult
+tomat INP
+BRZ tomat
+STA antall
+LDA N
+OTC
+LDA linje
+OTC
+LDA E
+OTC
+LDA linje
+OTC
+LDA S
+OTC
+LDA linje
+OTC
+LDA tomat_dager
+OUT
+LDA linje 
+OTC
+tomat_mult LDA sum
+ADD tomat_pris
+STA sum
+LDA antall
+SUB en
+STA antall
+BRZ start
+BRA tomat_mult
+slutt LDA sum
+OUT
+LDA linje
+OTC
+LDA laster
+print STA last
+last LDA 72
+BRZ hade
+OTC
+LDA last
+ADD en
+STA last
+BRA print
+hade HLT
+eple_plu DAT 111
+eple_pris DAT 5
+eple_dager DAT 6
+tomat_plu DAT 222
+tomat_pris DAT 7
+tomat_dager DAT 4
+vare DAT 0
+antall DAT 0
+sum DAT 0
+en DAT 1
+N DAT 78
+E DAT 69
+S DAT 83
+linje DAT 10
+navn DAT 77
+DAT 65
+DAT 84
+DAT 65
+DAT 78
+DAT 68
+DAT 69
+DAT 0
+laster LDA navn

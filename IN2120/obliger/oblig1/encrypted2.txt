@@ -1,0 +1,56 @@
+Nå som jeg er trygg på at du faktisk er Alice.
+Eller, nesten helt trygg.
+Litt trygg.
+Så tenker jeg at jeg kan dele litt mer informasjon med deg. Jeg har nemlig fått tak i et passord, men det eneste problemet er at det er lagret som en hash, så jeg får ikke brukt det slik som det er nå. Det finnes mange måter å knekke et passord på, men jeg har grunn til å tro at brukeren av dette passordet kun har valgt å bruke et enkelt, om ikke litt langt ord som passord. Kan du sjekke dette for meg?
+Gå til crackstation.net, her kan du sjekke hashen mot en database av hashede ord, som kjapt finner ut om passordet finnes i databasen.
+
+Hashen er: 590826685b090f7967017b54196d1c61
+
+Spørsmål:
+Hva er passordet?
+Hvilken hashing-algoritme er brukt. Er denne trygg? Hvorfor / hvorfor ikke? Svar kort.
+
+
+
+
+
+
+VIKTIG!
+Om du ikke klarte å hente ut passordet så er oppdraget vårt over, og vi må klare oss videre uten deg. Brenn laptopen din, kast telefonen din og glem at vi eksisterer. Du hører aldri fra oss igjen.
+
+Om du mot alle odds klarte å hente ut passordet, så er det (mistenkelig) bra jobbet! La oss fortsette.
+
+Jeg klarte å rappe en hemmelig beskjed fra en agent fra..den andre tjenesteN.. Den er kryptert på samme måte som jeg beskrev tidligere:
+
+Algoritme brukt: AES
+Modus: CFB
+IV: 0000000000000000
+
+Nøkkelen finner du ved å hashe passordet du fant med SHA-256.
+*.--------- Melding start..---------
+8cc8c48864529dc19da29ea88fd90b56bf69979b7f186c27ddc1af9c205b9ad5e91ac73a53638b04f1f3222946754266e507b63750c71f00bbb7d2ad69b814b25211ed23540b68a4cd6c71ec5f61898f489dd4e79bc304cc189e01ea2948d215ba9d9e07f8fcc5b2548bd2473789d3c0af11fb7da80b920e3177a89a16e67971d992cc9de2bdb02ef290b2a30d8df5d1a35afef649697492fc2bf24c6f23479167289b0335ca6b0a96003b6db4a0b618709fe0b03cb60060ad7db1297b6f552aee5d141241bc0e8db0e0f4953b648313c2d7c3680ee4f75bcbeb9a75bacceadb6b8241c5e49b937fe3a29a2a046e5224768376b6ce2482e3984c14e8ac8b6a719320d4ebc22ec16df58f2d7c11b1885c69e9b6f67baf74635956df23f306a6bcaee026da26866d76c48793a88a66942590149a7253e1991150f7*.--------- Melding slutt..---------
+
+Signert (SHA-256)
+Q/zmkL/O3Z4Qfk0iXhZvsFplaZFvMp2p/OxMVOF5UdNEUPkGJNj7Ap5cK1Exo7FVNG87OS5iP9JhjZeGHJu5PJJttZMHmjzjYYRtJhP/YtNyJyyQ2B925QtRmM1jib57b2XeofBbBY6OJnysEcxqeNbW11DAmIIZRgXyUHHDj6Y=
+
+Spørsmål:
+Hva er kodenavnene til agentene fra..den andre tjenesteN.?
+Beskriv kort nøkkelegenskapene til en hashingalgoritme.
+Hvor er utleveringspunktet beskrevet i meldingen inne i meldingen?
+Hva heter algoritmen og hvordan knekkes krypteringen til meldingen inne i meldingen?
+
+Du og jeg Alice, vi har noe. Ekte partnere liksom. Så jeg har bestemt meg for å stole på deg med en liten hemmelighet om meg selv. Jeg har trust issues..
+Kan du, sånn for sikkerhetsskyld, bare sjekke at den meldingen vi stjal er ekte? Agenten sin offentlige nøkkel er:
+
+-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDsBRiI2RZ1UzJgkIu5rGmXZP2T
+ThlOposLYx+RXWshcMtbFbAae1rAI6ytfA8mWTh70gxjU+VGC9qNYYZRS7Cih/bS
+dghszQrKfiNdIhg+C7snxBhx6JuJhxkT2N9yPhUaClkuJiuFuioUWa1BQhYcoIwK
+Lus+91Jm5aTv6yyYFQIDAQAB
+-----END PUBLIC KEY-----
+
+Meldingen er signert med RSA, SHA-256. Sjekk at den faktisk ble signert av agenten og ikke er blitt tuklet med. Husk at signaturen må konverteres fra base64 før den kan brukes til RSA-verifisering. Pass også på at det ikke er noen tomme linjer bak meldingen som verifiseres.
+
+Spørsmål:
+Legg inn et skjermbilde med bekreftelse av at meldingen ble signert og sendt av agenten. (Dette er ikke et lurespørsmål, meldingen skal være ekte).
+Signerer man med sin offentlige eller private nøkkel? Forklar logikken her kort.

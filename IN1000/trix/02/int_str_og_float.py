@@ -1,0 +1,12 @@
+# a) int
+# b) str
+# c) float
+# d) 2.4
+# e) 35
+# f) 333
+# g) str
+# h) int
+# i) TypeError
+# j) 3.0
+# k) False
+# l) True

@@ -1,0 +1,6 @@
+navn: Mats Andersen
+adresse: Norgesveien 24
+postinfo: 1234 Oslo
+land: Norge
+tlf: 91464883
+brukernavn: @olanordmann

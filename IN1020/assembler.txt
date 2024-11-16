@@ -1,0 +1,160 @@
+GANGE TO TALL:
+
+        INP
+        STA input
+        STA res
+        INP
+        SUB en
+        STA ganger
+loop    LDA res
+        ADD input
+        STA res
+        LDA ganger
+        SUB en
+        STA ganger
+        BRZ ferdig
+        BRA loop
+ferdig  LDA res
+        OUT
+        HLT 
+res     DAT 0
+input   DAT 0
+ganger  DAT 0
+en      DAT 1
+
+
+SAMMENLIKNE TO TALL:
+
+        INP 
+        STA a
+        INP
+        SUB a
+        BRZ null
+        LDA F
+        OTC
+        HLT
+null    LDA T
+        OTC
+        HLT
+a       DAT 0
+T       DAT 84
+F       DAT 70
+
+DELE ET HELTALL MED ET ANNET:
+
+        INP
+        STA temp
+        INP
+        STA b
+loop    LDA temp
+        SUB b
+        STA temp
+        LDA res
+        ADD en
+        STA res
+        LDA temp
+        BRZ end
+        BRP loop
+end     LDA res
+        OUT
+        HLT
+b       DAT 0
+res     DAT 0
+temp    DAT 0
+en      DAT 1
+
+MODULUS:
+
+        INP 
+        STA a
+        INP
+        STA b
+        STA temp
+        LDA a
+        SUB b
+        STA check
+        ADD check
+        BRP loop
+        BRZ null
+        BRA less
+less    LDA a
+        OUT
+        HLT
+loop    LDA temp
+        ADD b
+        STA temp
+        LDA a
+        SUB temp
+        STA check
+        ADD check
+        BRZ null
+        BRP loop
+        BRA neg
+neg     LDA temp
+        SUB b
+        STA temp
+        LDA a
+        SUB temp
+        OUT
+        HLT
+null    LDA zero
+        OUT
+        HLT
+zero    DAT 0
+a       DAT 0
+b       DAT 0
+temp    DAT 0
+check   DAT 0
+
+
+BINARY:
+
+        INP
+        STA input
+mod     LDA temp
+        ADD two
+        STA temp
+        LDA input
+        BRZ done
+        SUB temp
+        BRZ null
+        BRP mod
+        BRA less
+null    LDA zero
+        OUT
+        LDA zero
+        STA temp
+        BRA ceil
+less    LDA one
+        OUT
+        LDA zero
+        STA temp
+        BRA ceil
+ceil    LDA input
+        SUB two
+        STA input
+        LDA cnt
+        ADD one
+        STA cnt
+        LDA input
+        BRZ new
+        BRP ceil
+        BRA neg
+new     LDA cnt
+        STA input
+        LDA zero
+        STA cnt
+        BRA mod
+neg     LDA cnt
+        SUB one
+        STA input
+        LDA zero
+        STA cnt
+        BRA mod
+done    HLT
+cnt     DAT 0
+input   DAT 0
+temp    DAT 0
+zero    DAT 0
+one     DAT 1
+two     DAT 2

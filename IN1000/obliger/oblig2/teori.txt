@@ -1,0 +1,12 @@
+b)
+
+Det kan vaere fordelsaktig aa kjoere metodene til klassen, foer
+vi e det hele tatt har lest inn filer. Uansett maatte vi ha hatt en
+metode for innlesing av filer, ettersom det kan vaere filen vokser.
+
+c)
+
+Vi kunne ha jobbet med aar-parameteren som en streng. Dette ville ha gjort
+det litt mer rotete aa sammenlikne datoer; aa sjekke om en film ble utgikk foer
+eller etter, osv. Paa den annen side ville dette ha gitt oss noen flere
+metoder aa jobbe med.
