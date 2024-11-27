@@ -1,0 +1,40 @@
+*** Til eksamen
+- Krypto
+  - Postkvantekrypto
+  - Hvilke algoritmer sterkere enn hvilke
+- PKI
+  - Beskyttelsestid, prosesseringsperiode
+- Brukerautentisering
+  - Bioemtri, FMR, TMR, FNMR, TNMR
+- Styrelse og ledelse
+- Risikostyring
+
+
+*** Eksamener
+** TPM
+  - Kryptering av harddisk
+  - Fjern-attestering 
+  - Sikker oppstart
+
+** Synkroniserte identitets-tokens
+
+  - Time-synchronized authentication token used in OTP
+  - Teller-basert (som inkrementerer en teller hver gang ny OTP beregnes)
+
+** Federation
+  - Eduroam er desentralisert navnerom og sentralisert autentisering,
+    - Forskjellige uni-er gir identitet, men kun det som gir det, kan autentisere
+
+** Owasp (Open worldwide application security project)
+  - Rangerer sikkerhetsrisikoer
+
+** X.509
+  - Inneholder common name of the subject, PK, og signatur av issuer
+  - CRL (Certificate revocation list) og OCSP (Online certificate status protocol, som sjekker om sert er gyldig)
+
+** TLS
+- HTTPS over TLS: port 443
+  
+      
+    
+    
